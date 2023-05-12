@@ -1,0 +1,77 @@
+ body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    background-color: cyan;
+ }
+
+ a{
+    color: rgba(30, 20, 220, 0.98);
+    text-decoration: none;
+    transition: color 0.1s;
+ }
+
+ a:hover{
+   background-color: crimson;
+ }
+
+button {
+   display: inline-block;
+   margin: 5px;
+   cursor: pointer;
+   font-size: 100%;
+   background-color: mediumblue;
+   border-radius: 5px;
+   padding: 2px 10px;
+   color: white;
+   border: 0;
+   transition: background-color 0.1s;
+}
+
+button:hover{
+   background-color: crimson;
+}
+
+input[type="text"]{
+   font-size: 100%;
+}
+.choices button {
+   display: block;
+}
+
+.wrapper {
+   margin: 100px auto 0 auto;
+   max-width: 600px;
+}
+
+.hide {
+   display: none;
+}
+
+.result {
+   display: block;
+}
+.start-button {
+   text-align: center;
+}
+.scores {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+.timer {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+
+.questions p {
+   background-color: #3cee0f;
+   color: rgb(3, 3, 3);
+   padding: 15px 15px 15px 15px;
+   border-radius: 5px;
+}
+
+.questions p:hover{
+   background-color: darkorchid;
+   box-shadow: 10px 10px 15px;
+}
